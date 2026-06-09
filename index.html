@@ -1,5 +1,845 @@
-<!doctype html> <html lang="zh-CN" translate="no" class="light"> <head> <script type="module" crossorigin src="//statics.moonshot.cn/kimi-web-seo/assets/polyfills-DIdxs4Gp.js"></script> <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kimi AI 官网 - K2.6 上线</title>
-<meta name="description" content="Kimi K2.6 模型发布！全新建站功能可生成极具设计感的网站，支持轻量后端模块；Agent 集群全面升级，Office 文档一键转可复用技能。Claw 群组同步开启内测，探索多 Agent 协作的全新可能。">
-<meta name="keywords" content="Kimi, AI, K2.6, Kimi K2.6, Kimi 官网, 视觉编程, Agent 集群, PPT, Excel, PDF, Moonshot, Moonshot AI, 月之暗面, 深度研究, 建站">  <link rel="shortcut icon" href="/favicon.ico"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <meta name="renderer" content="webkit"> <meta name="force-rendering" content="webkit"> <meta name="mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-status-bar-style" content="black"> <meta name="apple-mobile-web-app-title" content="Kimi"> <meta name="format-detection" content="telephone=no,email=no"> <meta name="msvalidate.01" content="38E0A3C40C0983D8FED5BD0B59E78653"> <meta name="baidu-site-verification" content="codeva-oC0GIbxpdb"> <meta name="sogou_site_verification" content="K4KQFuej81">   <script>window.OVERSEA=false</script> <script type="module" crossorigin src="//statics.moonshot.cn/kimi-web-seo/assets/index-D-IfDxcy.js"></script> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/rolldown-runtime-CtLqhC6a.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/framework-CbSiJTlV.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/_plugin-vue_export-helper-DNW4j-dv.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/katex-CLyXPy3k.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/vendor-CgCurXkZ.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/validate_pb-C4d1SIYt.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/core-BXNy5V_X.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/dayjs.min-BFZ_fz8v.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.utils-c7Te_27r.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.bridge-BdDnOOFL.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.log-BTrGEefw.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/promise-D8l7rJLl.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/request-C-8J5NNM.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/annotations_pb-C6W6zlnS.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/field_behavior_pb-D6GtFkca.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/artifact_pb-CdpKiLqT.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/scenario_pb-C1j8dMEC.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/job_pb-CHPnmDsQ.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimiplus_pb-BKj1FMaS.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/options_pb-C2Pe6YDd.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/message_ref_pb-DCQRGUBn.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/memory_pb-BXmB8MqL.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/user_context_pb-B4LhwUkP.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/goods_pb-BdYCLAKU.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/response_pb-BSAbjqLV.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.message-BOnAiUjQ.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/model-BozsdOkm.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/user-CQSI6aeO.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/check-bRx1OiB9.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/formatter-BOCjxMT-.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/subscription-CcjYVSJ7.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/config-CdwnfZif.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/bot_pb-HPulRIp9.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/form.modal-BXP09fsc.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Loading-Dt55m9gg.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Button-DdhALGbb.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.icon-B-UBGRpT.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.button-CitS2-Ll.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.confirm-a5GxZuCb.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Image-MDC834_g.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Tooltip-BvMsJCxr.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/WithTooltip-D3oFPaHw.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/ImageThumbnail-Bu5i7Uey.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.imagePreview-DDXbCUCf.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Modal-boJoNKQW.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.modal-BZeIIOU8.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Tooltip-B_k85jz4.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/chatBase-Ge_-Jmbm.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/loadExternalScript-DVxqICcW.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/captcha-CL4N-UKC.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/googleLoginModel-CazeFu27.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/login-DyQ5t3ys.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/theme-DPomGnzN.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/RiveImg-ClftcHyS.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/RunningText-DAc0hm5C.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/button-DQEkR56r.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/copy-button-DBtA-lyg.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/v4-Dcu8wDVB.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/router-SdzxnlPL.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/claw-bot-BZTqLVHc.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/chunk-GIYVHLCQ-ClQqqd6P.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi.css-CK6oa5DD.js"> <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/PopoverMenu-CcmIyTuC.js"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/katex-BTdWhSYS.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/vendor-t6ip80KM.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Loading-_FPPz63B.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Button-B_jrYFEc.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi-C1dNVZ_H.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi-jCVormhs.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Image-D3ht6cJq.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Tooltip-LpF9yzhX.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/WithTooltip-CViyiqjM.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/ImageThumbnail-9Jupfg5C.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Modal-BdF34-du.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/kimi-AgKO8nFt.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/Tooltip-VbI1pHK5.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/captcha-CuD_oCrT.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/login-ZytcTNyW.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/RiveImg-BXdTu5Pl.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/RunningText-B5atj1q7.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/button-BAfgdnek.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/copy-button-BmJAMs-G.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/claw-bot-BJUbccxz.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/PopoverMenu-Djc6Z3sh.css"> <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/index-D74lfMyD.css"> </head> <body> <div id="app"></div>  </body> </html> 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>商品销售分布智能分析系统 V2</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background: #f5f7fa; color: #333; line-height: 1.6; }
+  .container { max-width: 1500px; margin: 0 auto; padding: 20px; }
+  .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(102,126,234,0.3); }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header p { opacity: 0.9; font-size: 14px; }
+  .upload-area { border: 2px dashed #667eea; border-radius: 12px; padding: 40px; text-align: center; background: white; margin-bottom: 20px; transition: all 0.3s; cursor: pointer; }
+  .upload-area:hover { border-color: #764ba2; background: #f8f9ff; }
+  .upload-area.dragover { background: #eef0ff; border-color: #764ba2; }
+  .upload-area input { display: none; }
+  .upload-icon { font-size: 48px; margin-bottom: 10px; }
+  .upload-text { color: #667eea; font-size: 16px; font-weight: 500; }
+  .upload-hint { color: #999; font-size: 13px; margin-top: 8px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; background: white; padding: 12px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .tab { padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; color: #666; transition: all 0.2s; border: none; background: transparent; }
+  .tab:hover { background: #f0f2f5; color: #333; }
+  .tab.active { background: #667eea; color: white; }
+  .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 20px; }
+  .kpi-card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid #667eea; position: relative; overflow: hidden; }
+  .kpi-card.red { border-left-color: #e74c3c; }
+  .kpi-card.orange { border-left-color: #f39c12; }
+  .kpi-card.green { border-left-color: #27ae60; }
+  .kpi-card.blue { border-left-color: #3498db; }
+  .kpi-card.purple { border-left-color: #9b59b6; }
+  .kpi-label { font-size: 13px; color: #888; margin-bottom: 6px; }
+  .kpi-value { font-size: 26px; font-weight: 700; color: #333; }
+  .kpi-sub { font-size: 12px; color: #999; margin-top: 4px; }
+  .kpi-tag { position: absolute; top: 12px; right: 12px; font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #f0f0f0; color: #666; }
+  .filter-bar { background: white; padding: 16px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 20px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .filter-bar select, .filter-bar input { padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; outline: none; min-width: 140px; }
+  .filter-bar select:focus, .filter-bar input:focus { border-color: #667eea; }
+  .filter-bar label { font-size: 13px; color: #666; font-weight: 500; }
+  .btn { padding: 8px 16px; border-radius: 6px; border: none; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; }
+  .btn-primary { background: #667eea; color: white; }
+  .btn-primary:hover { background: #5a6fd6; }
+  .btn-danger { background: #e74c3c; color: white; }
+  .btn-warning { background: #f39c12; color: white; }
+  .btn-success { background: #27ae60; color: white; }
+  .btn-info { background: #3498db; color: white; }
+  .btn-outline { background: white; color: #667eea; border: 1px solid #667eea; }
+  .btn-outline:hover { background: #667eea; color: white; }
+  .table-container { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; margin-bottom: 20px; }
+  .table-header { padding: 16px 20px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+  .table-title { font-size: 16px; font-weight: 600; }
+  .table-count { font-size: 13px; color: #888; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f8f9fa; padding: 12px 16px; text-align: left; font-weight: 600; color: #555; border-bottom: 2px solid #eee; cursor: pointer; user-select: none; white-space: nowrap; }
+  th:hover { background: #eef0f5; }
+  th .sort-icon { margin-left: 4px; color: #bbb; font-size: 12px; }
+  td { padding: 10px 16px; border-bottom: 1px solid #f0f0f0; }
+  tr:hover { background: #f8f9ff; }
+  tr.negative { background: #ffeaea; }
+  tr.hot { background: #eafff0; }
+  tr.slow { background: #fff8ea; }
+  tr.danger { background: #ffeaea; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+  .badge-red { background: #ffeaea; color: #c0392b; }
+  .badge-green { background: #eafff0; color: #27ae60; }
+  .badge-orange { background: #fff3e0; color: #e67e22; }
+  .badge-blue { background: #e3f2fd; color: #1976d2; }
+  .badge-purple { background: #f3e5f5; color: #7b1fa2; }
+  .badge-gray { background: #f5f5f5; color: #666; }
+  .transfer-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 16px; border-left: 4px solid #667eea; }
+  .transfer-card.warning { border-left-color: #f39c12; }
+  .transfer-card.danger { border-left-color: #e74c3c; }
+  .transfer-card.success { border-left-color: #27ae60; }
+  .transfer-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px; }
+  .transfer-title { font-weight: 600; font-size: 15px; }
+  .transfer-meta { font-size: 13px; color: #888; }
+  .transfer-body { font-size: 13px; color: #555; line-height: 1.8; }
+  .store-tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 6px; margin-bottom: 4px; }
+  .store-surplus { background: #fff3e0; color: #e67e22; }
+  .store-shortage { background: #ffeaea; color: #c0392b; }
+  .store-ok { background: #eafff0; color: #27ae60; }
+  .pagination { display: flex; justify-content: center; gap: 6px; padding: 16px; }
+  .page-btn { padding: 6px 12px; border: 1px solid #ddd; background: white; border-radius: 6px; cursor: pointer; font-size: 13px; }
+  .page-btn:hover { background: #f0f2f5; }
+  .page-btn.active { background: #667eea; color: white; border-color: #667eea; }
+  .page-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  .hidden { display: none !important; }
+  @media (max-width: 768px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } .filter-bar { flex-direction: column; align-items: stretch; } th, td { padding: 8px 10px; font-size: 12px; } .header h1 { font-size: 20px; } }
+  .summary-box { background: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px; font-size: 13px; color: #555; line-height: 1.8; }
+  .summary-box strong { color: #333; }
+</style>
+<base target="_blank">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>商品销售分布智能分析系统 V2</h1>
+    <p>支持新老款区分：老款买断不可退，新款可退换 | 导入Excel自动生成调拨/退货建议</p>
+  </div>
+
+  <div class="upload-area" id="uploadArea">
+    <input type="file" id="fileInput" accept=".xls,.xlsx,.csv">
+    <div class="upload-icon">📁</div>
+    <div class="upload-text">点击或拖拽上传Excel文件</div>
+    <div class="upload-hint">支持 .xls / .xlsx / .csv 格式 | 需包含"新老款"列</div>
+  </div>
+
+  <div id="mainContent" class="hidden">
+
+    <div class="tabs">
+      <button class="tab active" data-tab="overview">📈 数据总览</button>
+      <button class="tab" data-tab="detail">📋 商品明细</button>
+      <button class="tab" data-tab="hot">🔥 畅销排名</button>
+      <button class="tab" data-tab="slow">⚠️ 滞销预警</button>
+      <button class="tab" data-tab="transfer">🚚 调拨建议</button>
+      <button class="tab" data-tab="return">📦 退货建议</button>
+      <button class="tab" data-tab="negative">❌ 负库存</button>
+    </div>
+
+    <div id="tab-overview" class="tab-content">
+      <div class="kpi-grid">
+        <div class="kpi-card"><div class="kpi-label">总销售数量</div><div class="kpi-value" id="kpiTotalSales">0</div><div class="kpi-sub">全渠道合计</div></div>
+        <div class="kpi-card"><div class="kpi-label">总库存数量</div><div class="kpi-value" id="kpiTotalStock">0</div><div class="kpi-sub">当前在库</div></div>
+        <div class="kpi-card orange"><div class="kpi-label">整体存销比</div><div class="kpi-value" id="kpiRatio">0</div><div class="kpi-sub">理想值 1.2-1.5</div></div>
+        <div class="kpi-card red"><div class="kpi-label">负库存预警</div><div class="kpi-value" id="kpiNegative">0</div><div class="kpi-sub">需立即处理</div></div>
+        <div class="kpi-card purple"><div class="kpi-label">新款数量</div><div class="kpi-value" id="kpiNewCount">0</div><div class="kpi-tag badge-green">可退换</div></div>
+        <div class="kpi-card blue"><div class="kpi-label">老款数量</div><div class="kpi-value" id="kpiOldCount">0</div><div class="kpi-tag badge-red">买断</div></div>
+        <div class="kpi-card red"><div class="kpi-label">新款可退积压</div><div class="kpi-value" id="kpiReturnable">0</div><div class="kpi-sub">零销售且库存≥5</div></div>
+        <div class="kpi-card green"><div class="kpi-label">商品总款数</div><div class="kpi-value" id="kpiTotalItems">0</div><div class="kpi-sub">在架SKU</div></div>
+      </div>
+
+      <div class="table-container">
+        <div class="table-header"><span class="table-title">📊 品类 x 新老款 交叉分析</span></div>
+        <table id="categoryTable">
+          <thead><tr><th>品类</th><th>新老款</th><th>款数</th><th>总销售</th><th>总库存</th><th>存销比</th><th>零销售积压</th><th>健康度</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="table-container">
+        <div class="table-header"><span class="table-title">📊 新老款整体对比</span></div>
+        <table id="newOldTable">
+          <thead><tr><th>类型</th><th>款数</th><th>总销售</th><th>总库存</th><th>存销比</th><th>零销售积压款</th><th>可退库存</th><th>买断库存</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-detail" class="tab-content hidden">
+      <div class="filter-bar">
+        <label>🔍 搜索:</label><input type="text" id="searchInput" placeholder="货号/品名...">
+        <label>品类:</label><select id="categoryFilter"><option value="">全部</option></select>
+        <label>新老款:</label><select id="newOldFilter"><option value="">全部</option><option value="new">新款（可退换）</option><option value="old">老款（买断）</option></select>
+        <label>门店:</label><select id="storeFilter"><option value="">全部门店</option></select>
+        <label>存销比:</label><select id="ratioFilter"><option value="">全部</option><option value="hot">≤0.5 极度缺货</option><option value="good">0.5-1.2 健康</option><option value="normal">1.2-3 正常</option><option value="slow">3-10 偏慢</option><option value="dead">≥10 积压</option></select>
+        <button class="btn btn-primary" onclick="exportCurrent()">📥 导出当前</button>
+      </div>
+      <div class="table-container">
+        <div class="table-header"><span class="table-title">📋 商品明细表</span><span class="table-count" id="detailCount">共 0 款</span></div>
+        <div style="overflow-x:auto;"><table id="detailTable"><thead><tr></tr></thead><tbody></tbody></table></div>
+        <div class="pagination" id="detailPagination"></div>
+      </div>
+    </div>
+
+    <div id="tab-hot" class="tab-content hidden">
+      <div class="filter-bar">
+        <label>最低销售:</label><input type="number" id="hotMinSales" value="20" min="0">
+        <label>最高存销比:</label><input type="number" id="hotMaxRatio" value="1.5" min="0" step="0.1">
+        <label>新老款:</label><select id="hotNewOld"><option value="">全部</option><option value="new">新款</option><option value="old">老款</option></select>
+        <button class="btn btn-primary" onclick="renderHot()">刷新</button>
+      </div>
+      <div class="table-container">
+        <div class="table-header"><span class="table-title">🔥 畅销缺货款排名</span><span class="table-count" id="hotCount">共 0 款</span></div>
+        <table id="hotTable">
+          <thead><tr><th>排名</th><th>货号</th><th>商品全名</th><th>新老款</th><th>品类</th><th>总销售</th><th>总库存</th><th>存销比</th><th>状态</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-slow" class="tab-content hidden">
+      <div class="filter-bar">
+        <button class="btn btn-warning" onclick="setSlowFilter('zero')">零销售积压</button>
+        <button class="btn btn-danger" onclick="setSlowFilter('dead')">死库存(存销比≥10)</button>
+        <button class="btn btn-primary" onclick="setSlowFilter('high')">高库存低动销</button>
+        <button class="btn btn-info" onclick="setSlowFilter('newReturn')">新款可退积压</button>
+        <button class="btn btn-outline" onclick="setSlowFilter('oldStock')">老款买断积压(仅调拨)</button>
+        <button class="btn" onclick="setSlowFilter('all')">全部滞销</button>
+      </div>
+      <div class="summary-box" id="slowSummary"></div>
+      <div class="table-container">
+        <div class="table-header"><span class="table-title">⚠️ 滞销预警</span><span class="table-count" id="slowCount">共 0 款</span></div>
+        <table id="slowTable">
+          <thead><tr><th>货号</th><th>商品全名</th><th>新老款</th><th>品类</th><th>总销售</th><th>总库存</th><th>存销比</th><th>滞销类型</th><th>建议</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-transfer" class="tab-content hidden">
+      <div class="filter-bar">
+        <label>调出门店:</label><select id="transferFrom"></select>
+        <label>调入门店:</label><select id="transferTo"></select>
+        <label>新老款:</label><select id="transferNewOld"><option value="">全部</option><option value="new">新款</option><option value="old">老款</option></select>
+        <button class="btn btn-primary" onclick="renderTransfer()">分析调拨</button>
+        <button class="btn btn-success" onclick="renderAllTransfer()">全渠道智能调拨</button>
+      </div>
+      <div id="transferResults"></div>
+    </div>
+
+    <div id="tab-return" class="tab-content hidden">
+      <div class="filter-bar">
+        <button class="btn btn-danger" onclick="setReturnFilter('zeroNew')">新款零销售积压</button>
+        <button class="btn btn-warning" onclick="setReturnFilter('mainNew')">新款主仓库死库存</button>
+        <button class="btn btn-primary" onclick="setReturnFilter('deadNew')">新款全渠道死库存</button>
+        <button class="btn btn-outline" onclick="setReturnFilter('oldStock')">老款买断积压(仅调拨)</button>
+        <button class="btn" onclick="setReturnFilter('all')">全部退货建议</button>
+      </div>
+      <div class="summary-box" id="returnSummary"></div>
+      <div class="table-container">
+        <div class="table-header"><span class="table-title">📦 退回厂家建议</span><span class="table-count" id="returnCount">共 0 款</span></div>
+        <table id="returnTable">
+          <thead><tr><th>货号</th><th>商品全名</th><th>新老款</th><th>品类</th><th>总销售</th><th>总库存</th><th>退货数量</th><th>退货原因</th><th>优先级</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-negative" class="tab-content hidden">
+      <div class="table-container">
+        <div class="table-header"><span class="table-title">❌ 负库存预警清单</span><span class="table-count" id="negativeCount">共 0 条</span></div>
+        <table id="negativeTable">
+          <thead><tr><th>门店</th><th>货号</th><th>商品全名</th><th>新老款</th><th>销售数量</th><th>库存数量</th><th>严重程度</th><th>建议</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+let rawData = [];
+let processedData = [];
+let stores = [];
+let currentTab = 'overview';
+let detailPage = 1;
+let detailPerPage = 50;
+let detailSort = { col: '合计销售数量', dir: 'desc' };
+let slowFilterType = 'all';
+let returnFilterType = 'all';
+
+function classifyNewOld(val) {
+  const s = String(val).toLowerCase();
+  if (s.includes('新') || s.includes('2026') || s.includes('2025')) return '新款';
+  if (s.includes('老') || s.includes('23') || s.includes('买断')) return '老款';
+  if (/202[4-6]/.test(s) && !s.includes('老')) return '新款';
+  if (/202[0-3]/.test(s) || s.includes('老款')) return '老款';
+  return '新款';
+}
+
+const uploadArea = document.getElementById('uploadArea');
+const fileInput = document.getElementById('fileInput');
+uploadArea.addEventListener('click', () => fileInput.click());
+uploadArea.addEventListener('dragover', (e) => { e.preventDefault(); uploadArea.classList.add('dragover'); });
+uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('dragover'));
+uploadArea.addEventListener('drop', (e) => {
+  e.preventDefault(); uploadArea.classList.remove('dragover');
+  if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+});
+fileInput.addEventListener('change', (e) => {
+  if (e.target.files.length) handleFile(e.target.files[0]);
+});
+
+function handleFile(file) {
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const data = new Uint8Array(e.target.result);
+    const workbook = XLSX.read(data, { type: 'array' });
+    const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+    const jsonData = XLSX.utils.sheet_to_json(firstSheet, { header: 1, defval: '' });
+    parseData(jsonData);
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function parseData(rows) {
+  let headerRow = 0;
+  for (let i = 0; i < Math.min(rows.length, 5); i++) {
+    const rowStr = rows[i].join('');
+    if (rowStr.includes('货号') && rowStr.includes('商品')) {
+      headerRow = i; break;
+    }
+  }
+
+  const headers = rows[headerRow].map(h => String(h).trim());
+  const dataRows = rows.slice(headerRow + 1).filter(r => r[0] !== '' && r[1] !== '');
+
+  stores = [];
+  const storeSet = new Set();
+  headers.forEach(h => {
+    const m = h.match(/^(.*?)(销售数量|当前库存数量)$/);
+    if (m && !['合计','总'].some(x => m[1].includes(x))) {
+      storeSet.add(m[1]);
+    }
+  });
+  stores = Array.from(storeSet);
+
+  rawData = dataRows.map(row => {
+    const obj = {};
+    headers.forEach((h, i) => {
+      let val = row[i];
+      if (val === '' || val === undefined || val === null) val = 0;
+      if (typeof val === 'string' && !isNaN(val) && val.trim() !== '') val = Number(val);
+      obj[h] = val;
+    });
+    return obj;
+  }).filter(r => r['货号']);
+
+  processData();
+  showMain();
+}
+
+function processData() {
+  processedData = rawData.map(row => {
+    const totalSales = Number(row['合计销售数量'] || 0);
+    const totalStock = Number(row['合计当前库存数量'] || 0);
+    const ratio = totalSales > 0 ? totalStock / totalSales : 999;
+    const name = String(row['商品全名'] || '');
+    const newOldRaw = row['新老款'] || '';
+    const newOld = classifyNewOld(newOldRaw);
+
+    let category = '其他';
+    if (/连衣裙|裙子|裙/.test(name)) category = '连衣裙/裙';
+    else if (/裤子|裤/.test(name)) category = '裤子';
+    else if (/上衣|小衫|衬衫|毛衫|外套|马甲|背心|开衫/.test(name)) category = '上衣/外套';
+    else if (/套装/.test(name)) category = '套装';
+
+    return {
+      ...row,
+      _totalSales: totalSales,
+      _totalStock: totalStock,
+      _ratio: ratio,
+      _category: category,
+      _newOld: newOld,
+      _newOldRaw: newOldRaw
+    };
+  });
+
+  const cats = [...new Set(processedData.map(d => d._category))];
+  document.getElementById('categoryFilter').innerHTML = '<option value="">全部品类</option>' + cats.map(c => `<option value="${c}">${c}</option>`).join('');
+
+  const storeSel = document.getElementById('storeFilter');
+  storeSel.innerHTML = '<option value="">全部门店</option>' + stores.map(s => `<option value="${s}">${s}</option>`).join('');
+
+  const storeOpts = stores.map(s => `<option value="${s}">${s}</option>`).join('');
+  document.getElementById('transferFrom').innerHTML = '<option value="">选择门店</option>' + storeOpts;
+  document.getElementById('transferTo').innerHTML = '<option value="">选择门店</option>' + storeOpts;
+
+  renderOverview();
+  renderDetail();
+  renderHot();
+  renderSlow();
+  renderAllTransfer();
+  renderReturn();
+  renderNegative();
+}
+
+function showMain() {
+  document.getElementById('mainContent').classList.remove('hidden');
+  document.getElementById('uploadArea').style.display = 'none';
+}
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+    document.getElementById('tab-' + tab.dataset.tab).classList.remove('hidden');
+    currentTab = tab.dataset.tab;
+  });
+});
+
+function renderOverview() {
+  const totalSales = processedData.reduce((s, d) => s + d._totalSales, 0);
+  const totalStock = processedData.reduce((s, d) => s + d._totalStock, 0);
+  const ratio = totalSales > 0 ? (totalStock / totalSales).toFixed(2) : '0';
+  const negative = processedData.filter(d => d._totalStock < 0).length;
+  const newCount = processedData.filter(d => d._newOld === '新款').length;
+  const oldCount = processedData.filter(d => d._newOld === '老款').length;
+  const returnable = processedData.filter(d => d._newOld === '新款' && d._totalSales === 0 && d._totalStock >= 5).length;
+
+  document.getElementById('kpiTotalSales').textContent = totalSales.toLocaleString();
+  document.getElementById('kpiTotalStock').textContent = totalStock.toLocaleString();
+  document.getElementById('kpiRatio').textContent = ratio;
+  document.getElementById('kpiNegative').textContent = negative;
+  document.getElementById('kpiNewCount').textContent = newCount;
+  document.getElementById('kpiOldCount').textContent = oldCount;
+  document.getElementById('kpiReturnable').textContent = returnable;
+  document.getElementById('kpiTotalItems').textContent = processedData.length;
+
+  const crossMap = {};
+  processedData.forEach(d => {
+    const key = d._category + '|' + d._newOld;
+    if (!crossMap[key]) crossMap[key] = { cat: d._category, no: d._newOld, count: 0, sales: 0, stock: 0, zeroStock: 0 };
+    crossMap[key].count++;
+    crossMap[key].sales += d._totalSales;
+    crossMap[key].stock += d._totalStock;
+    if (d._totalSales === 0 && d._totalStock >= 5) crossMap[key].zeroStock++;
+  });
+
+  const tbody = document.querySelector('#categoryTable tbody');
+  tbody.innerHTML = Object.values(crossMap).sort((a,b) => b.sales - a.sales).map(v => {
+    const r = v.sales > 0 ? (v.stock / v.sales).toFixed(2) : '∞';
+    let health = '<span class="badge badge-green">健康</span>';
+    if (v.sales > 0 && v.stock / v.sales > 3) health = '<span class="badge badge-red">积压</span>';
+    else if (v.sales > 0 && v.stock / v.sales > 2) health = '<span class="badge badge-orange">偏高</span>';
+    const noBadge = v.no === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+    return '<tr><td>' + v.cat + '</td><td>' + noBadge + '</td><td>' + v.count + '</td><td>' + v.sales + '</td><td>' + v.stock + '</td><td>' + r + '</td><td>' + (v.zeroStock > 0 ? '<span class="badge badge-red">' + v.zeroStock + '款</span>' : '-') + '</td><td>' + health + '</td></tr>';
+  }).join('');
+
+  const newData = processedData.filter(d => d._newOld === '新款');
+  const oldData = processedData.filter(d => d._newOld === '老款');
+  const newSales = newData.reduce((s,d) => s + d._totalSales, 0);
+  const newStock = newData.reduce((s,d) => s + d._totalStock, 0);
+  const oldSales = oldData.reduce((s,d) => s + d._totalSales, 0);
+  const oldStock = oldData.reduce((s,d) => s + d._totalStock, 0);
+  const newZero = newData.filter(d => d._totalSales === 0 && d._totalStock >= 5).length;
+  const oldZero = oldData.filter(d => d._totalSales === 0 && d._totalStock >= 5).length;
+  const newReturnStock = newData.filter(d => d._totalSales === 0 && d._totalStock >= 5).reduce((s,d) => s + d._totalStock, 0);
+  const oldReturnStock = oldData.filter(d => d._totalSales === 0 && d._totalStock >= 5).reduce((s,d) => s + d._totalStock, 0);
+
+  document.querySelector('#newOldTable tbody').innerHTML = 
+    '<tr><td><span class="badge badge-green">新款（可退换）</span></td><td>' + newData.length + '</td><td>' + newSales + '</td><td>' + newStock + '</td><td>' + (newSales > 0 ? (newStock/newSales).toFixed(2) : '∞') + '</td><td>' + (newZero > 0 ? '<span class="badge badge-red">' + newZero + '款</span>' : '-') + '</td><td><strong style="color:#27ae60">' + newReturnStock + '件</strong></td><td>-</td></tr>' +
+    '<tr><td><span class="badge badge-red">老款（买断不可退）</span></td><td>' + oldData.length + '</td><td>' + oldSales + '</td><td>' + oldStock + '</td><td>' + (oldSales > 0 ? (oldStock/oldSales).toFixed(2) : '∞') + '</td><td>' + (oldZero > 0 ? '<span class="badge badge-red">' + oldZero + '款</span>' : '-') + '</td><td>-</td><td><strong style="color:#e74c3c">' + oldReturnStock + '件</strong></td></tr>';
+}
+
+function renderDetail() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const cat = document.getElementById('categoryFilter').value;
+  const no = document.getElementById('newOldFilter').value;
+  const store = document.getElementById('storeFilter').value;
+  const ratioType = document.getElementById('ratioFilter').value;
+
+  let filtered = processedData.filter(d => {
+    if (search && !String(d['货号']).toLowerCase().includes(search) && !String(d['商品全名']).toLowerCase().includes(search)) return false;
+    if (cat && d._category !== cat) return false;
+    if (no === 'new' && d._newOld !== '新款') return false;
+    if (no === 'old' && d._newOld !== '老款') return false;
+    if (store) {
+      const s = Number(d[store + '销售数量'] || 0);
+      const st = Number(d[store + '当前库存数量'] || 0);
+      if (s === 0 && st === 0) return false;
+    }
+    if (ratioType) {
+      const r = d._ratio;
+      if (ratioType === 'hot' && r > 0.5) return false;
+      if (ratioType === 'good' && (r <= 0.5 || r > 1.2)) return false;
+      if (ratioType === 'normal' && (r <= 1.2 || r > 3)) return false;
+      if (ratioType === 'slow' && (r <= 3 || r > 10)) return false;
+      if (ratioType === 'dead' && r < 10) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    let av = a[detailSort.col], bv = b[detailSort.col];
+    if (av === undefined) av = a['_' + detailSort.col.replace('合计','').replace('数量','').toLowerCase()];
+    if (bv === undefined) bv = b['_' + detailSort.col.replace('合计','').replace('数量','').toLowerCase()];
+    const an = Number(av) || 0, bn = Number(bv) || 0;
+    return detailSort.dir === 'asc' ? an - bn : bn - an;
+  });
+
+  document.getElementById('detailCount').textContent = '共 ' + filtered.length + ' 款';
+
+  const thead = document.querySelector('#detailTable thead tr');
+  const baseCols = ['货号','商品全名','新老款','品类','合计销售数量','合计当前库存数量','存销比'];
+  const storeCols = [];
+  stores.forEach(s => { storeCols.push(s + '销售数量', s + '当前库存数量'); });
+  const allCols = baseCols.concat(storeCols);
+
+  thead.innerHTML = allCols.map(col => {
+    const sortClass = detailSort.col === col ? (detailSort.dir === 'asc' ? '▲' : '▼') : '⇅';
+    return '<th onclick="sortDetail(\'' + col + '\')">' + col + '<span class="sort-icon">' + sortClass + '</span></th>';
+  }).join('');
+
+  const totalPages = Math.ceil(filtered.length / detailPerPage) || 1;
+  const start = (detailPage - 1) * detailPerPage;
+  const pageData = filtered.slice(start, start + detailPerPage);
+
+  const tbody = document.querySelector('#detailTable tbody');
+  tbody.innerHTML = pageData.map(d => {
+    let cls = '';
+    if (d._totalStock < 0) cls = 'negative';
+    else if (d._totalSales >= 20 && d._ratio <= 1) cls = 'hot';
+    else if (d._totalSales === 0 && d._totalStock >= 5) cls = 'slow';
+    else if (d._ratio >= 10 && d._totalSales > 0) cls = 'danger';
+
+    const ratioStr = d._ratio >= 999 ? '∞' : d._ratio.toFixed(2);
+    let ratioBadge = '<span class="badge badge-gray">' + ratioStr + '</span>';
+    if (d._ratio <= 0.5) ratioBadge = '<span class="badge badge-red">极度缺货 ' + ratioStr + '</span>';
+    else if (d._ratio <= 1) ratioBadge = '<span class="badge badge-orange">缺货 ' + ratioStr + '</span>';
+    else if (d._ratio >= 10) ratioBadge = '<span class="badge badge-red">积压 ' + ratioStr + '</span>';
+    else if (d._ratio >= 3) ratioBadge = '<span class="badge badge-orange">偏高 ' + ratioStr + '</span>';
+
+    const noBadge = d._newOld === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+
+    let cells = ['<td>' + d['货号'] + '</td>', '<td>' + d['商品全名'] + '</td>', '<td>' + noBadge + '</td>', '<td><span class="badge badge-blue">' + d._category + '</span></td>', '<td><strong>' + d._totalSales + '</strong></td>', '<td>' + d._totalStock + '</td>', '<td>' + ratioBadge + '</td>'];
+    stores.forEach(s => {
+      const sa = Number(d[s + '销售数量'] || 0);
+      const st = Number(d[s + '当前库存数量'] || 0);
+      let color = '';
+      if (st < 0) color = 'color:#e74c3c;font-weight:bold;';
+      else if (sa >= 3 && st <= 1) color = 'color:#e67e22;';
+      cells.push('<td style="' + color + '">' + sa + '/' + st + '</td>');
+    });
+    return '<tr class="' + cls + '">' + cells.join('') + '</tr>';
+  }).join('');
+
+  const pag = document.getElementById('detailPagination');
+  let html = '<button class="page-btn" onclick="changePage(-1)" ' + (detailPage<=1?'disabled':'') + '>上一页</button>';
+  for (let i = 1; i <= totalPages; i++) {
+    if (i === 1 || i === totalPages || (i >= detailPage - 2 && i <= detailPage + 2)) {
+      html += '<button class="page-btn ' + (i===detailPage?'active':'') + '" onclick="goPage(' + i + ')">' + i + '</button>';
+    } else if (i === detailPage - 3 || i === detailPage + 3) {
+      html += '<span style="padding:6px;">...</span>';
+    }
+  }
+  html += '<button class="page-btn" onclick="changePage(1)" ' + (detailPage>=totalPages?'disabled':'') + '>下一页</button>';
+  pag.innerHTML = html;
+}
+
+function sortDetail(col) {
+  if (detailSort.col === col) detailSort.dir = detailSort.dir === 'asc' ? 'desc' : 'asc';
+  else { detailSort.col = col; detailSort.dir = 'desc'; }
+  renderDetail();
+}
+function changePage(dir) { detailPage += dir; renderDetail(); }
+function goPage(p) { detailPage = p; renderDetail(); }
+
+document.getElementById('searchInput').addEventListener('input', () => { detailPage = 1; renderDetail(); });
+document.getElementById('categoryFilter').addEventListener('change', () => { detailPage = 1; renderDetail(); });
+document.getElementById('newOldFilter').addEventListener('change', () => { detailPage = 1; renderDetail(); });
+document.getElementById('storeFilter').addEventListener('change', () => { detailPage = 1; renderDetail(); });
+document.getElementById('ratioFilter').addEventListener('change', () => { detailPage = 1; renderDetail(); });
+
+function renderHot() {
+  const minSales = Number(document.getElementById('hotMinSales').value) || 0;
+  const maxRatio = Number(document.getElementById('hotMaxRatio').value) || 999;
+  const no = document.getElementById('hotNewOld').value;
+
+  let hot = processedData.filter(d => {
+    if (d._totalSales < minSales) return false;
+    if (d._ratio > maxRatio) return false;
+    if (no === 'new' && d._newOld !== '新款') return false;
+    if (no === 'old' && d._newOld !== '老款') return false;
+    return true;
+  }).sort((a, b) => b._totalSales - a._totalSales);
+
+  document.getElementById('hotCount').textContent = '共 ' + hot.length + ' 款';
+  const tbody = document.querySelector('#hotTable tbody');
+  tbody.innerHTML = hot.map((d, i) => {
+    const ratioStr = d._ratio.toFixed(2);
+    let status = '<span class="badge badge-green">库存充足</span>';
+    if (d._ratio <= 0.5) status = '<span class="badge badge-red">极度缺货！立即补单</span>';
+    else if (d._ratio <= 0.8) status = '<span class="badge badge-orange">严重缺货</span>';
+    else if (d._ratio <= 1) status = '<span class="badge badge-orange">库存紧张</span>';
+    const noBadge = d._newOld === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+    return '<tr><td><strong>#' + (i+1) + '</strong></td><td>' + d['货号'] + '</td><td>' + d['商品全名'] + '</td><td>' + noBadge + '</td><td><span class="badge badge-blue">' + d._category + '</span></td><td><strong style="color:#e74c3c">' + d._totalSales + '</strong></td><td>' + d._totalStock + '</td><td>' + ratioStr + '</td><td>' + status + '</td></tr>';
+  }).join('');
+}
+
+function setSlowFilter(type) { slowFilterType = type; renderSlow(); }
+function renderSlow() {
+  let filtered = [];
+  let summaryText = '';
+
+  if (slowFilterType === 'zero') {
+    filtered = processedData.filter(d => d._totalSales === 0 && d._totalStock >= 5);
+    summaryText = '零销售积压款：全渠道没有任何销售但库存≥5件的商品，建议新款退厂、老款清仓或调拨。';
+  } else if (slowFilterType === 'dead') {
+    filtered = processedData.filter(d => d._totalSales > 0 && d._ratio >= 10);
+    summaryText = '死库存：存销比≥10，动销极差，建议新款退厂、老款促销清仓。';
+  } else if (slowFilterType === 'high') {
+    filtered = processedData.filter(d => d._totalSales > 0 && d._totalSales < 5 && d._totalStock >= 20);
+    summaryText = '高库存低动销：库存≥20件但销售<5件，需重点关注。';
+  } else if (slowFilterType === 'newReturn') {
+    filtered = processedData.filter(d => d._newOld === '新款' && d._totalSales === 0 && d._totalStock >= 5);
+    summaryText = '新款可退积压：老款买断不可退，但新款可以直接退回厂家，优先处理！';
+  } else if (slowFilterType === 'oldStock') {
+    filtered = processedData.filter(d => d._newOld === '老款' && d._totalSales === 0 && d._totalStock >= 5);
+    summaryText = '老款买断积压：无法退回厂家，建议门店间调拨消化或做清仓特卖。';
+  } else {
+    filtered = processedData.filter(d => (d._totalSales === 0 && d._totalStock >= 5) || (d._totalSales > 0 && d._ratio >= 10));
+    summaryText = '全部滞销商品：包含零销售积压和死库存两类。';
+  }
+
+  const newCount = filtered.filter(d => d._newOld === '新款').length;
+  const oldCount = filtered.filter(d => d._newOld === '老款').length;
+  const newStock = filtered.filter(d => d._newOld === '新款').reduce((s,d) => s + d._totalStock, 0);
+  const oldStock = filtered.filter(d => d._newOld === '老款').reduce((s,d) => s + d._totalStock, 0);
+
+  summaryText += '<br><strong>新款' + newCount + '款/' + newStock + '件</strong>（可退厂） | <strong>老款' + oldCount + '款/' + oldStock + '件</strong>（买断，仅调拨/清仓）';
+  document.getElementById('slowSummary').innerHTML = summaryText;
+
+  filtered.sort((a, b) => b._totalStock - a._totalStock);
+
+  document.getElementById('slowCount').textContent = '共 ' + filtered.length + ' 款';
+  const tbody = document.querySelector('#slowTable tbody');
+  tbody.innerHTML = filtered.map(d => {
+    let type = '', suggest = '';
+    const noBadge = d._newOld === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+    if (d._totalSales === 0 && d._totalStock >= 5) {
+      type = '<span class="badge badge-red">零销售积压</span>';
+      suggest = d._newOld === '新款' ? '退回厂家' : '调拨消化/清仓';
+    } else if (d._ratio >= 10) {
+      type = '<span class="badge badge-orange">死库存</span>';
+      suggest = d._newOld === '新款' ? (d._totalStock > 20 ? '退回厂家' : '促销清仓') : '促销清仓/调拨';
+    } else {
+      type = '<span class="badge badge-gray">动销差</span>';
+      suggest = '观察/促销';
+    }
+    const ratioStr = d._ratio >= 999 ? '∞' : d._ratio.toFixed(2);
+    return '<tr><td>' + d['货号'] + '</td><td>' + d['商品全名'] + '</td><td>' + noBadge + '</td><td><span class="badge badge-blue">' + d._category + '</span></td><td>' + d._totalSales + '</td><td>' + d._totalStock + '</td><td>' + ratioStr + '</td><td>' + type + '</td><td>' + suggest + '</td></tr>';
+  }).join('');
+}
+
+function renderTransfer() {
+  const from = document.getElementById('transferFrom').value;
+  const to = document.getElementById('transferTo').value;
+  const no = document.getElementById('transferNewOld').value;
+  if (!from || !to) { alert('请选择调出和调入门店'); return; }
+
+  const results = [];
+  processedData.forEach(d => {
+    if (no === 'new' && d._newOld !== '新款') return;
+    if (no === 'old' && d._newOld !== '老款') return;
+
+    const fromSales = Number(d[from + '销售数量'] || 0);
+    const fromStock = Number(d[from + '当前库存数量'] || 0);
+    const toSales = Number(d[to + '销售数量'] || 0);
+    const toStock = Number(d[to + '当前库存数量'] || 0);
+
+    if (fromStock >= 3 && fromSales <= 1 && toSales >= 2 && toStock <= 3) {
+      const qty = Math.min(fromStock - 1, 3 - toStock, 5);
+      if (qty > 0) {
+        results.push({
+          code: d['货号'], name: d['商品全名'], cat: d._category, newOld: d._newOld,
+          from: from, to: to, fromSales: fromSales, fromStock: fromStock, toSales: toSales, toStock: toStock, qty: qty,
+          totalSales: d._totalSales, totalStock: d._totalStock
+        });
+      }
+    }
+  });
+
+  results.sort((a, b) => b.totalSales - a.totalSales);
+
+  const container = document.getElementById('transferResults');
+  if (results.length === 0) {
+    container.innerHTML = '<div class="transfer-card"><div class="transfer-title">未找到符合条件的调拨商品</div><div class="transfer-body">请尝试更换门店组合，或放宽筛选条件。</div></div>';
+    return;
+  }
+
+  container.innerHTML = results.map(r => {
+    const noBadge = r.newOld === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+    return '<div class="transfer-card"><div class="transfer-header"><span class="transfer-title">' + r.code + ' · ' + r.name + ' ' + noBadge + '</span><span class="transfer-meta">全渠道 销' + r.totalSales + '/存' + r.totalStock + '</span></div><div class="transfer-body"><span class="store-tag store-surplus">' + r.from + ': 销' + r.fromSales + ' / 存' + r.fromStock + '</span><span style="margin:0 10px;">➜ 建议调拨 <strong style="color:#667eea;font-size:16px;">' + r.qty + '件</strong> ➜</span><span class="store-tag store-shortage">' + r.to + ': 销' + r.toSales + ' / 存' + r.toStock + '</span></div></div>';
+  }).join('');
+}
+
+function renderAllTransfer() {
+  const no = document.getElementById('transferNewOld').value;
+  const results = [];
+  processedData.forEach(d => {
+    if (no === 'new' && d._newOld !== '新款') return;
+    if (no === 'old' && d._newOld !== '老款') return;
+
+    const surplus = [];
+    const shortage = [];
+    stores.forEach(s => {
+      const sa = Number(d[s + '销售数量'] || 0);
+      const st = Number(d[s + '当前库存数量'] || 0);
+      if (st >= 5 && sa <= 1) surplus.push({ store: s, sales: sa, stock: st });
+      if (sa >= 3 && st <= 2) shortage.push({ store: s, sales: sa, stock: st });
+    });
+    if (surplus.length > 0 && shortage.length > 0) {
+      results.push({
+        code: d['货号'], name: d['商品全名'], cat: d._category, newOld: d._newOld,
+        totalSales: d._totalSales, totalStock: d._totalStock,
+        surplus: surplus, shortage: shortage
+      });
+    }
+  });
+
+  results.sort((a, b) => b.totalSales - a.totalSales);
+
+  const container = document.getElementById('transferResults');
+  container.innerHTML = results.slice(0, 30).map(r => {
+    const surTags = r.surplus.map(s => '<span class="store-tag store-surplus">' + s.store + '(销' + s.sales + '/存' + s.stock + ')</span>').join('');
+    const shoTags = r.shortage.map(s => '<span class="store-tag store-shortage">' + s.store + '(销' + s.sales + '/存' + s.stock + ')</span>').join('');
+    const noBadge = r.newOld === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+    let cls = 'transfer-card';
+    if (r.totalSales >= 50) cls += ' danger';
+    else if (r.totalSales >= 20) cls += ' warning';
+    return '<div class="' + cls + '"><div class="transfer-header"><span class="transfer-title">' + r.code + ' · ' + r.name + ' ' + noBadge + ' <span class="badge badge-blue">' + r.cat + '</span></span><span class="transfer-meta">全渠道 销' + r.totalSales + '/存' + r.totalStock + '</span></div><div class="transfer-body"><div style="margin-bottom:8px;"><strong style="color:#e67e22;">积压门店:</strong> ' + surTags + '</div><div><strong style="color:#e74c3c;">缺货门店:</strong> ' + shoTags + '</div></div></div>';
+  }).join('') + (results.length > 30 ? '<div style="text-align:center;padding:20px;color:#888;">还有 ' + (results.length - 30) + ' 款商品存在调拨机会...</div>' : '');
+}
+
+function setReturnFilter(type) { returnFilterType = type; renderReturn(); }
+function renderReturn() {
+  let filtered = [];
+  let summaryText = '';
+
+  if (returnFilterType === 'zeroNew') {
+    filtered = processedData.filter(d => d._newOld === '新款' && d._totalSales === 0 && d._totalStock >= 5)
+      .map(d => Object.assign({}, d, { _returnQty: d._totalStock, _reason: '新款零销售积压', _priority: 'P0' }));
+    summaryText = '新款零销售积压：可以直接退回厂家，无需犹豫。';
+  } else if (returnFilterType === 'mainNew') {
+    filtered = processedData.filter(d => {
+      const mainStock = Number(d['主仓库当前库存数量'] || 0);
+      const mainSales = Number(d['主仓库销售数量'] || 0);
+      return d._newOld === '新款' && mainStock >= 20 && mainSales === 0 && d._totalSales > 0;
+    }).map(d => {
+      const mainStock = Number(d['主仓库当前库存数量'] || 0);
+      return Object.assign({}, d, { _returnQty: mainStock, _reason: '新款主仓库死库存', _priority: 'P1' });
+    });
+    summaryText = '新款主仓库死库存：主仓库库存≥20但零销售，建议退主仓库部分。';
+  } else if (returnFilterType === 'deadNew') {
+    filtered = processedData.filter(d => d._newOld === '新款' && d._ratio >= 10 && d._totalSales > 0 && d._totalStock > 20)
+      .map(d => Object.assign({}, d, { _returnQty: d._totalStock, _reason: '新款全渠道动销极差', _priority: 'P1' }));
+    summaryText = '新款全渠道死库存：存销比≥10且库存>20，建议退厂。';
+  } else if (returnFilterType === 'oldStock') {
+    filtered = processedData.filter(d => d._newOld === '老款' && d._totalSales === 0 && d._totalStock >= 5)
+      .map(d => Object.assign({}, d, { _returnQty: d._totalStock, _reason: '老款买断积压（不可退，仅调拨/清仓）', _priority: 'P2' }));
+    summaryText = '老款买断积压：无法退回厂家，建议门店间调拨消化或做清仓特卖。';
+  } else {
+    const zero = processedData.filter(d => d._newOld === '新款' && d._totalSales === 0 && d._totalStock >= 5)
+      .map(d => Object.assign({}, d, { _returnQty: d._totalStock, _reason: '新款零销售积压', _priority: 'P0' }));
+    const main = processedData.filter(d => {
+      const mainStock = Number(d['主仓库当前库存数量'] || 0);
+      const mainSales = Number(d['主仓库销售数量'] || 0);
+      return d._newOld === '新款' && mainStock >= 20 && mainSales === 0 && d._totalSales > 0;
+    }).map(d => {
+      const mainStock = Number(d['主仓库当前库存数量'] || 0);
+      return Object.assign({}, d, { _returnQty: mainStock, _reason: '新款主仓库死库存', _priority: 'P1' });
+    });
+    const dead = processedData.filter(d => d._newOld === '新款' && d._ratio >= 10 && d._totalSales > 0 && d._totalStock > 20)
+      .map(d => Object.assign({}, d, { _returnQty: d._totalStock, _reason: '新款全渠道动销极差', _priority: 'P1' }));
+    filtered = zero.concat(main).concat(dead);
+    summaryText = '全部可退货建议：仅包含新款（老款买断不可退）。';
+  }
+
+  const totalReturnQty = filtered.reduce((s,d) => s + d._returnQty, 0);
+  summaryText += '<br><strong>共' + filtered.length + '款，可退' + totalReturnQty + '件</strong>';
+  document.getElementById('returnSummary').innerHTML = summaryText;
+
+  filtered.sort((a, b) => b._returnQty - a._returnQty);
+
+  document.getElementById('returnCount').textContent = '共 ' + filtered.length + ' 款';
+  const tbody = document.querySelector('#returnTable tbody');
+  tbody.innerHTML = filtered.map(d => {
+    const priority = d._priority;
+    const badge = priority === 'P0' ? '<span class="badge badge-red">P0 紧急退厂</span>' : priority === 'P1' ? '<span class="badge badge-orange">P1 建议退厂</span>' : '<span class="badge badge-gray">P2 观察</span>';
+    const noBadge = d._newOld === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+    return '<tr><td>' + d['货号'] + '</td><td>' + d['商品全名'] + '</td><td>' + noBadge + '</td><td><span class="badge badge-blue">' + d._category + '</span></td><td>' + d._totalSales + '</td><td>' + d._totalStock + '</td><td><strong style="color:#e74c3c">' + d._returnQty + '</strong></td><td>' + d._reason + '</td><td>' + badge + '</td></tr>';
+  }).join('');
+}
+
+function renderNegative() {
+  const negatives = [];
+  processedData.forEach(d => {
+    stores.forEach(s => {
+      const stock = Number(d[s + '当前库存数量'] || 0);
+      const sales = Number(d[s + '销售数量'] || 0);
+      if (stock < 0) {
+        negatives.push({
+          store: s, code: d['货号'], name: d['商品全名'], newOld: d._newOld,
+          sales: sales, stock: stock, severity: stock < -10 ? '严重' : stock < -5 ? '较重' : '一般'
+        });
+      }
+    });
+  });
+
+  document.getElementById('negativeCount').textContent = '共 ' + negatives.length + ' 条';
+  const tbody = document.querySelector('#negativeTable tbody');
+  tbody.innerHTML = negatives.map(n => {
+    const sevBadge = n.severity === '严重' ? '<span class="badge badge-red">严重</span>' : n.severity === '较重' ? '<span class="badge badge-orange">较重</span>' : '<span class="badge badge-orange">一般</span>';
+    const noBadge = n.newOld === '新款' ? '<span class="badge badge-green">新款</span>' : '<span class="badge badge-red">老款</span>';
+    return '<tr class="negative"><td><strong>' + n.store + '</strong></td><td>' + n.code + '</td><td>' + n.name + '</td><td>' + noBadge + '</td><td>' + n.sales + '</td><td style="color:#e74c3c;font-weight:bold">' + n.stock + '</td><td>' + sevBadge + '</td><td>立即盘点/调拨补货</td></tr>';
+  }).join('');
+}
+
+function exportCurrent() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const cat = document.getElementById('categoryFilter').value;
+  const no = document.getElementById('newOldFilter').value;
+  const store = document.getElementById('storeFilter').value;
+  const ratioType = document.getElementById('ratioFilter').value;
+
+  let filtered = processedData.filter(d => {
+    if (search && !String(d['货号']).toLowerCase().includes(search) && !String(d['商品全名']).toLowerCase().includes(search)) return false;
+    if (cat && d._category !== cat) return false;
+    if (no === 'new' && d._newOld !== '新款') return false;
+    if (no === 'old' && d._newOld !== '老款') return false;
+    if (store) {
+      const s = Number(d[store + '销售数量'] || 0);
+      const st = Number(d[store + '当前库存数量'] || 0);
+      if (s === 0 && st === 0) return false;
+    }
+    if (ratioType) {
+      const r = d._ratio;
+      if (ratioType === 'hot' && r > 0.5) return false;
+      if (ratioType === 'good' && (r <= 0.5 || r > 1.2)) return false;
+      if (ratioType === 'normal' && (r <= 1.2 || r > 3)) return false;
+      if (ratioType === 'slow' && (r <= 3 || r > 10)) return false;
+      if (ratioType === 'dead' && r < 10) return false;
+    }
+    return true;
+  });
+
+  const exportCols = ['货号','商品全名','新老款','品类','合计销售数量','合计当前库存数量','存销比'];
+  stores.forEach(s => { exportCols.push(s + '销售数量', s + '当前库存数量'); });
+
+  const wsData = [exportCols];
+  filtered.forEach(d => {
+    const row = exportCols.map(col => {
+      if (col === '品类') return d._category;
+      if (col === '新老款') return d._newOld;
+      if (col === '存销比') return d._ratio >= 999 ? '∞' : d._ratio.toFixed(2);
+      return d[col] || 0;
+    });
+    wsData.push(row);
+  });
+
+  const ws = XLSX.utils.aoa_to_sheet(wsData);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, '商品分析');
+  XLSX.writeFile(wb, '商品分析导出_' + new Date().toISOString().slice(0,10) + '.xlsx');
+}
+
+console.log('系统已加载，等待上传文件...');
+</script>
+</body>
+</html>
